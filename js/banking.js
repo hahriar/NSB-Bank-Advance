@@ -1,11 +1,11 @@
-/* function doubleIt(num){
+function doubleIt(num){
    const result = num * 2;
    return result;
 }
 
 const first = doubleIt(5);
 const second = doubleIt(7)
- */
+
 
 
 
@@ -24,10 +24,10 @@ depositInput.value = '';
 
 
 document.getElementById('deposit-button').addEventListener('click', function(){
-   /* const depositInput = document.getElementById('deposit-input');
-   const depositAmountText = depositInput.value;
-   const depositAmount = parseFloat(depositAmountText); */
+   
    const depositAmount = getInputValue();
+
+
    //current deposit
 
    const depositTotal = document.getElementById('deposit-total');
